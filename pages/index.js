@@ -3,7 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
-   const sendEmail = () => {
+  const sendEmail = () => {
     const emailAddress = "arnaldogn@gmail.com";
     const subject = "Support Request";
     const body = "Hello, I need help with ";
@@ -21,9 +21,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my Labeling!" />
+        <Header title="Welcome to Labeling!" />
         <p className="description">
-          <a href="javascript:void(0);" onclick={sendEmail}>Contact Support</a>
+          <a href="javascript:void(0);" onClick={sendEmail}>Contact Support</a>
         </p>
       </main>
 
