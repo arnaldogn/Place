@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to Labeling!" />
+        <Header title="Welcome to support!" />
         <p className="description">
           <a href="javascript:void(0);" onClick={sendEmail}>Contact Support</a>
         </p>
